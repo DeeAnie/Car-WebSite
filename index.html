@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Responsive car website</title>
 </head>
@@ -121,9 +121,9 @@
 
         <section class="popular section" id="popular">
             <h2 class="section__title">Choose Your Electric Car <br> Of The Porsche Brand</h2>
-            <div class="popular__container container">
-                <div>
-                    <article class="popular__card">
+            <div class="popular__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
                         <h1 class="popular__title">Porsche</h1>
                         <h3 class="popular__subtitle">Turbo S</h3>
@@ -147,7 +147,7 @@
                         </button>
                     </article>
 
-                    <article class="popular__card">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
                         <h1 class="popular__title">Porsche</h1>
                         <h3 class="popular__subtitle">Taycan</h3>
@@ -172,7 +172,7 @@
                         </button>
                     </article>
 
-                    <article class="popular__card">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
                         <h1 class="popular__title">Porsche</h1>
                         <h3 class="popular__subtitle">Turbo S Cross</h3>
@@ -196,7 +196,7 @@
                         </button>
                     </article>
 
-                    <article class="popular__card">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
                         <h1 class="popular__title">Porsche</h1>
                         <h3 class="popular__subtitle">Boxster 718</h3>
@@ -220,7 +220,7 @@
                         </button>
                     </article>
 
-                    <article class="popular__card">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
                         <h1 class="popular__title">Porsche</h1>
                         <h3 class="popular__subtitle">Cayman</h3>
@@ -245,6 +245,7 @@
                         </button>
                     </article>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
@@ -275,7 +276,7 @@
     </footer>
 
     <script src=""></script>
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src=""></script>
     <script src="assets/js/main.js"></script>
 </body>
