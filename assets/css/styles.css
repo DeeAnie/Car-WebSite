@@ -172,7 +172,6 @@ img {
   }
 }
 
-
 .nav__list {
     display: flex;
     flex-direction: column;
@@ -180,7 +179,6 @@ img {
     row-gap: 3rem;
     padding-top: 9rem;
 }
-
 
 .nav__link {
     text-transform: uppercase;
@@ -205,6 +203,10 @@ img {
 
 
 /* Show menu */
+
+.show-menu {
+  right: 0;
+}
 
 /* Change background header */
 
