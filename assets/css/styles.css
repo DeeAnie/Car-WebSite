@@ -907,7 +907,11 @@ img {
   transform: translateY(-0.25rem);
 }
 
-/* Show Scroll Up*/
+/* Show Scroll Up */
+
+.show-scroll {
+  bottom: 3rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
