@@ -1,5 +1,4 @@
-# Car-website
-## [In Progress](https://dianazhusupbek.github.io//)
+# [Car-WebSite](https://dianazhusupbek.github.io/Car-WebSite/)
 
 - Responsive Car website Using HTML CSS & JavaScript
 - Contains animations when scrolling.
