@@ -917,7 +917,7 @@ img {
   bottom: 3rem;
 }
 
-/* === BREAKPOINTS === */
+/* ======= BREAKPOINTS ======= */
 
 /* For small devices */
 
@@ -966,7 +966,7 @@ img {
   }
 
   .offer__container {
-    grid-auto-rows: initial;
+    grid-template-rows: initial;
     grid-template-columns: 0.5fr;
     justify-content: center;
   }
@@ -983,11 +983,11 @@ img {
 
 @media screen and (min-width: 767px) {
   .section {
-    padding: 2rem 0 2rem;
+    padding: 7rem 0 2rem;
   }
 
   .nav {
-    height: calc(val(--header-height) + 1.5rem);
+    height: calc(var(--header-height) + 1.5rem);
   }
 
   .nav__toggle,
@@ -1031,7 +1031,7 @@ img {
     height: 500px;
   }
 
-  .shape__bsmail {
+  .shape__smail {
     width: 400px;
     height: 400px;
   }
@@ -1043,6 +1043,7 @@ img {
   .home__img {
     width: 380px;
   }
+
   .home__car {
     column-gap: 7rem;
   }
